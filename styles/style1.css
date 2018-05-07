@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/IranianSans.eot) format('eot'),
+		url(../fonts/IranianSans.ttf) format('ttf'),
+		url(../fonts/IranianSans.woff) format('woff');
+}
+body{
+	direction: rtl;
+}
+header{
+	width: 1341px;
+	height: 250px;
+	margin: auto;
+	background-image: url(../images/header-image.png);
+}
+
+
+header div{
+	background-color: #000000;
+	opacity: 0.8;
+	
+	
+}
+
+	
+}
+
+
+header img{
+
+	margin: auto 20px;
+}
+nav{
+	width:  1341px;
+	margin: 8px auto 0;
+	
+	
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(102, 32, 32);
+}
+
+
+
+nav li {
+    float: right;
+}
+
+nav li a {
+	font-family: B Farnaz;
+    display: block;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: rgb(173, 171, 16);
+	height: 31px;
+}
+
+nav ul button img{
+
+	margin: -5px;
+}
+
+
+.active {
+	background-color: rgb(128, 19, 161) ;
+	
+}
+.main{
+	direction: rtl;
+	width: 1070px;
+	height: 420px;
+	margin: 5px auto 5px;
+
+}
+
+.content{
+	width: 1060px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: linear-gradient(to top, #1a0808 -1%, #46478f 10%, #9e3131 80%,  #1a0808 110%);
+	margin: 5px 0px 7px -128px;
+	
+	
+}
+.sidebar{
+	
+	width: 240px;
+	height: 1000px;
+	float: right;
+	margin: 5px -128px 0px 0px;
+	background: linear-gradient(to top, #9e3131 10%, #46478f 80%);
+}
+.sidebar ul{
+	list-style-type: none;
+	padding-right: 10px;
+	color: #000000;
+}
+.sidebar ul li {
+	font-family: iransans;
+}
+
+.sidebar ul li a{
+	display: block;
+	text-decoration: none;
+	
+}
+.sidebar ul li a:hover{
+	background-color: #333;
+	color: white;
+}
+.content article p{
+	font-family: iransans;
+	text-indent: 15px;
+	
+}
+.content article img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: auto;
+	
+}
+footer{
+	width: 1341px;
+	height: 160px;
+	margin: 10px auto 10px;
+	clear: both;
+	background: linear-gradient(to top, #2729b6 3%, #cc2424 98%);
+}
+footer div p{
+	font-family: iransans;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 120px;
+	
+}
+footer ul li {
+	display: inline;
+	
+}
+footer img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding: 6px 0 0 10px;
+	margin: -45px 0px 0px 0px;
+	
+
+}
+
+#to_top{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	float: right;
+	margin: -45px 10px;
+	
+
+	
+}
+.sticky{
+	position:fixed;
+	top:0;
+	margin:0 auto;
+	left:0;
+	right:0;	
+	width:  1350px;
+}
+
+
+@media screen and (max-width:760px){
+
+	header{
+		width: 100%;
+
+}
+header h1{
+	font-size:25px;
+}
+nav{
+	width:100%;
+}
+.main{
+	width:100%;
+}
+.content{
+	width:100%;
+}
+.sidebar{
+	display:none;
+}
+footer{
+	width:100%
+}
+}
+
+
+
+
+
+
+
+
+html {
+	background: url(body.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed,
+	background-repeat: no-repeat;
+}
+
+
+
+	
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+	
+	.dropdown .dropbtn {
+	  font-size: 16px;
+	  border: none;
+	  outline: none;
+	  color: rgb(14, 13, 13);
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  margin: 0;
+		font-family: B Farnaz;
+	}
+	
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: rgb(173, 171, 16);
+	}
+	
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #1f1621;
+	  min-width: 135px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+	
+	.dropdown-content a {
+	  float: none;
+	  color: rgb(255, 255, 255);
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: right;
+	}
+	
+	.dropdown-content a:hover {
+	  background-color: rgb(0, 0, 0);
+	}
+	
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+
+
+
+
+	input[type=text]{
+		width:130px;
+		box-sizing:border-box;
+		border:2px solid rgb(43, 43, 43);
+		border-radius:4px;
+		font-size:16px;
+		background-color: rgb(155, 155, 155);
+		background-position:10px 10px;
+		background-repeat:no-repeat;
+		padding:12px 20px 12px 40px;
+		margin: 5px 20px;
+		transition:width 0.4s ease-in-out;
+        float: left;
+	
+	}
+	input[type=text]:focus {
+		width:20%;
+	}
+/*** SEARCH BUTTON ***/
+input[type="submit"]{
+	background: #c4c4c4;/* Fallback color for non-css3 browsers */
+	width: 60px;
+	height: 45px;
+	border: 0;
+	border:2px solid rgb(107, 107, 107);
+    border-radius:4px;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font: 16px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 7px -18px 0;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	outline: none;
+	float: left;
+	
+
+
+
+}
+
+
